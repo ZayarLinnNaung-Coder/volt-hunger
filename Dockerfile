@@ -4,7 +4,7 @@ FROM openjdk:17-jdk-slim as build
 MAINTAINER ZAYARLINNNAUNG
 
 # Add the application's jar to the container
-COPY target/imusic-0.0.1-SNAPSHOT.jar imusic.jar
+COPY target/volt-hunger-0.0.1-SNAPSHOT.jar volt-hunger.jar
 
 EXPOSE 8080
 

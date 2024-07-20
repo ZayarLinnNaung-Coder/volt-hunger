@@ -36,10 +36,10 @@ jobs:
 
     - name: Build and tag Docker image
       run: |
-        docker build . -t zayarlinnnaung/imusic
+        docker build . -t zayarlinnnaung/volt-hunger
       env:
         DOCKER_BUILDKIT: 1
 
     - name: Push Docker image
       run: |
-        docker push zayarlinnnaung/imusic
+        docker push zayarlinnnaung/volt-hunger
