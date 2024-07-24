@@ -9,4 +9,4 @@ COPY target/volt-hunger-0.0.1-SNAPSHOT.jar volt-hunger.jar
 EXPOSE 8080
 
 #execute the application
-ENTRYPOINT ["java","-jar","/chat-service.jar"]
+ENTRYPOINT ["java","-jar","/volt-hunger.jar"]
